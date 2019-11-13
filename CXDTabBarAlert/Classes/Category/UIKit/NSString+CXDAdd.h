@@ -2,8 +2,8 @@
 //  NSString+CXDAdd.h
 //  FireEyesMonitoringTerminal
 //
-//  Created by xiao zude on 2019/3/14.
-//Copyright © 2019年 zxycloud. All rights reserved.
+//  Created by chenxuedan on 2019/3/14.
+//Copyright © 2019年 cxd. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

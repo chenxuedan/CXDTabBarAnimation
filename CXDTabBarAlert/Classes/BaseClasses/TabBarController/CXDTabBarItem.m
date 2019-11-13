@@ -2,8 +2,8 @@
 //  CXDTabBarItem.m
 //  CXDTabBarAlert
 //
-//  Created by xiao zude on 2019/11/11.
-//  Copyright © 2019 zxycloud. All rights reserved.
+//  Created by chenxuedan on 2019/11/11.
+//  Copyright © 2019 cxd. All rights reserved.
 //
 
 #import "CXDTabBarItem.h"

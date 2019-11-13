@@ -2,8 +2,8 @@
 //  UIColor+CXDAdd.m
 //  FireEyesAssistant
 //
-//  Created by xiao zude on 2019/6/19.
-//Copyright © 2019 zxycloud. All rights reserved.
+//  Created by chenxuedan on 2019/6/19.
+//Copyright © 2019 cxd. All rights reserved.
 //
 
 #import "UIColor+CXDAdd.h"

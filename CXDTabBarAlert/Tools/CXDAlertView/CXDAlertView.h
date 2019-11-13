@@ -2,7 +2,7 @@
 //  CXDAlertView.h
 //  CXDAlertView
 //
-//  Created by xiao zude on 2019/10/30.
+//  Created by chenxuedan on 2019/10/30.
 //  Copyright © 2019 cxd. All rights reserved.
 //
 

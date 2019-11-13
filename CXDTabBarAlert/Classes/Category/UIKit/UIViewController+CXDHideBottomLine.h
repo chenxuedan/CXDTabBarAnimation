@@ -2,7 +2,7 @@
 //  UIViewController+CXDHideBottomLine.h
 //  Schedule
 //
-//  Created by xiao zude on 2018/10/31.
+//  Created by chenxuedan on 2018/10/31.
 //Copyright © 2018年 cxd. All rights reserved.
 //
 

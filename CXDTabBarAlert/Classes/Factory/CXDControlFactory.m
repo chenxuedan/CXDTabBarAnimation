@@ -2,7 +2,7 @@
 //  CXDControlFactory.m
 //  CXDAlertView
 //
-//  Created by xiao zude on 2019/10/31.
+//  Created by chenxuedan on 2019/10/31.
 //  Copyright © 2019 cxd. All rights reserved.
 //
 

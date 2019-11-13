@@ -2,8 +2,8 @@
 //  UIView+CXDAdd.m
 //  FireEyesMonitoringTerminal
 //
-//  Created by xiao zude on 2019/3/4.
-//Copyright © 2019年 zxycloud. All rights reserved.
+//  Created by chenxuedan on 2019/3/4.
+//Copyright © 2019年 cxd. All rights reserved.
 //
 
 #import "UIView+CXDAdd.h"

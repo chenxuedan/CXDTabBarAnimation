@@ -2,7 +2,7 @@
 //  UIImage+CXDRoundImage.h
 //  Schedule
 //
-//  Created by xiao zude on 2018/10/25.
+//  Created by chenxuedan on 2018/10/25.
 //Copyright © 2018年 cxd. All rights reserved.
 //
 
