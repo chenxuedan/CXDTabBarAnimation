@@ -1,0 +1,25 @@
+//
+//  CXDProjectPrefixHeader.pch
+//  CXDTabBarAlert
+//
+//  Created by xiao zude on 2019/11/11.
+//  Copyright © 2019 zxycloud. All rights reserved.
+//
+
+#ifndef CXDProjectPrefixHeader_pch
+#define CXDProjectPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "CXDHeaderMacro.h"
+#import "CXDKitMacro.h"
+#import "UIView+CXDAdd.h"
+#import "UIImage+CXDImageColor.h"
+#import "NSString+CXDAdd.h"
+
+
+#import "Masonry.h"
+#import <ReactiveObjC.h>
+
+#endif /* CXDProjectPrefixHeader_pch */

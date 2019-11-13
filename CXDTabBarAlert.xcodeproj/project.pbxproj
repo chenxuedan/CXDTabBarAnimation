@@ -1,0 +1,1240 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BEB8ECEE5D9939FD6B121FB /* Pods_CXDTabBarAlertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDDF109294F9B02A09265A /* Pods_CXDTabBarAlertTests.framework */; };
+		48561A0B237428D900839B3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48561A0A237428D900839B3F /* AppDelegate.m */; };
+		48561A14237428D900839B3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48561A12237428D900839B3F /* Main.storyboard */; };
+		48561A16237428D900839B3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48561A15237428D900839B3F /* Assets.xcassets */; };
+		48561A19237428D900839B3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48561A17237428D900839B3F /* LaunchScreen.storyboard */; };
+		48561A1C237428D900839B3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48561A1B237428D900839B3F /* main.m */; };
+		48561A26237428DA00839B3F /* CXDTabBarAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48561A25237428DA00839B3F /* CXDTabBarAlertTests.m */; };
+		48561A31237428DA00839B3F /* CXDTabBarAlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48561A30237428DA00839B3F /* CXDTabBarAlertUITests.m */; };
+		48CB4D442379091400535D21 /* CXDNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D432379091300535D21 /* CXDNoticeView.m */; };
+		48CB4D4C2379094300535D21 /* CXDConfirmView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D462379094300535D21 /* CXDConfirmView.m */; };
+		48CB4D4D2379094300535D21 /* CXDSelectBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D492379094300535D21 /* CXDSelectBackView.m */; };
+		48CB4D692379099300535D21 /* NSNumber+CXDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D522379099300535D21 /* NSNumber+CXDAdd.m */; };
+		48CB4D6A2379099300535D21 /* UIImage+CXDRoundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D542379099300535D21 /* UIImage+CXDRoundImage.m */; };
+		48CB4D6B2379099300535D21 /* UIView+CXDBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D562379099300535D21 /* UIView+CXDBorder.m */; };
+		48CB4D6C2379099300535D21 /* NSDate+CXDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D572379099300535D21 /* NSDate+CXDAdd.m */; };
+		48CB4D6D2379099300535D21 /* NSString+CXDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D582379099300535D21 /* NSString+CXDAdd.m */; };
+		48CB4D6E2379099300535D21 /* UITextField+CXDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D5A2379099300535D21 /* UITextField+CXDAdd.m */; };
+		48CB4D6F2379099300535D21 /* UIImageView+CXDRoundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D5B2379099300535D21 /* UIImageView+CXDRoundImage.m */; };
+		48CB4D702379099300535D21 /* UIView+CXDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D5D2379099300535D21 /* UIView+CXDAdd.m */; };
+		48CB4D712379099300535D21 /* NSData+CXDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D5F2379099300535D21 /* NSData+CXDAdd.m */; };
+		48CB4D722379099300535D21 /* UIImage+CXDImageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D612379099300535D21 /* UIImage+CXDImageColor.m */; };
+		48CB4D732379099300535D21 /* UIViewController+CXDHideBottomLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D642379099300535D21 /* UIViewController+CXDHideBottomLine.m */; };
+		48CB4D742379099300535D21 /* UIColor+CXDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D672379099300535D21 /* UIColor+CXDAdd.m */; };
+		48CB4D782379099A00535D21 /* UIButton+CXDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D762379099A00535D21 /* UIButton+CXDCategory.m */; };
+		48CB4D7D23790E9900535D21 /* CXDKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D7B23790E9800535D21 /* CXDKeychain.m */; };
+		48CB4D8023790F4200535D21 /* CXDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D7F23790F4200535D21 /* CXDBaseViewController.m */; };
+		48CB4D8323790F7A00535D21 /* CXDTitleBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D8223790F7A00535D21 /* CXDTitleBaseViewController.m */; };
+		48CB4D862379115100535D21 /* CXDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D852379115100535D21 /* CXDTableViewController.m */; };
+		48CB4D8C2379118600535D21 /* CXDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D8A2379118600535D21 /* CXDTableViewCell.m */; };
+		48CB4D8D2379118600535D21 /* CXDTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D8B2379118600535D21 /* CXDTableView.m */; };
+		48CB4D932379127B00535D21 /* CXDMainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D922379127B00535D21 /* CXDMainNavigationController.m */; };
+		48CB4D962379129600535D21 /* CXDMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4D952379129600535D21 /* CXDMainTabBarController.m */; };
+		48CB4DA92379497200535D21 /* ZXYDeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4DA82379497200535D21 /* ZXYDeviceController.m */; };
+		48CB4DAC2379498700535D21 /* ZXYHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4DAB2379498700535D21 /* ZXYHistoryController.m */; };
+		48CB4DAF2379499C00535D21 /* ZXYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4DAE2379499C00535D21 /* ZXYMeViewController.m */; };
+		48CB4DBA2379741900535D21 /* CXDTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4DB92379741900535D21 /* CXDTabBarItem.m */; };
+		48CB4DCF237A9C6D00535D21 /* CXDIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4DCE237A9C6D00535D21 /* CXDIconView.m */; };
+		48CB4DD3237B9F7A00535D21 /* CXDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4DD2237B9F7900535D21 /* CXDAlertView.m */; };
+		48CB4DD7237B9FB500535D21 /* CXDControlFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CB4DD6237B9FB500535D21 /* CXDControlFactory.m */; };
+		BE079B167947C18F562C56C4 /* Pods_CXDTabBarAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E164BB8E97A02E733C6E5CA3 /* Pods_CXDTabBarAlert.framework */; };
+		D5CDB276E6D3CCFB9443DBB6 /* Pods_CXDTabBarAlert_CXDTabBarAlertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A63BB4BF9FB7E3A15222CA3 /* Pods_CXDTabBarAlert_CXDTabBarAlertUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48561A22237428DA00839B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485619FE237428D900839B3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48561A05237428D900839B3F;
+			remoteInfo = CXDTabBarAlert;
+		};
+		48561A2D237428DA00839B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485619FE237428D900839B3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48561A05237428D900839B3F;
+			remoteInfo = CXDTabBarAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		272DD2B154C1205A282BBFDE /* Pods-CXDTabBarAlert-CXDTabBarAlertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXDTabBarAlert-CXDTabBarAlertUITests.debug.xcconfig"; path = "Target Support Files/Pods-CXDTabBarAlert-CXDTabBarAlertUITests/Pods-CXDTabBarAlert-CXDTabBarAlertUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		48561A06237428D900839B3F /* CXDTabBarAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXDTabBarAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48561A09237428D900839B3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48561A0A237428D900839B3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48561A13237428D900839B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48561A15237428D900839B3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48561A18237428D900839B3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48561A1A237428D900839B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48561A1B237428D900839B3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48561A21237428DA00839B3F /* CXDTabBarAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXDTabBarAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48561A25237428DA00839B3F /* CXDTabBarAlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXDTabBarAlertTests.m; sourceTree = "<group>"; };
+		48561A27237428DA00839B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48561A2C237428DA00839B3F /* CXDTabBarAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CXDTabBarAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48561A30237428DA00839B3F /* CXDTabBarAlertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXDTabBarAlertUITests.m; sourceTree = "<group>"; };
+		48561A32237428DA00839B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48CB4D392378FFAA00535D21 /* CXDProjectPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXDProjectPrefixHeader.pch; sourceTree = "<group>"; };
+		48CB4D40237905D200535D21 /* CXDHeaderMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXDHeaderMacro.h; sourceTree = "<group>"; };
+		48CB4D422379091300535D21 /* CXDNoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXDNoticeView.h; sourceTree = "<group>"; };
+		48CB4D432379091300535D21 /* CXDNoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXDNoticeView.m; sourceTree = "<group>"; };
+		48CB4D462379094300535D21 /* CXDConfirmView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXDConfirmView.m; sourceTree = "<group>"; };
+		48CB4D472379094300535D21 /* CXDSelectBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXDSelectBackView.h; sourceTree = "<group>"; };
+		48CB4D492379094300535D21 /* CXDSelectBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXDSelectBackView.m; sourceTree = "<group>"; };
+		48CB4D4A2379094300535D21 /* CXDConfirmView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXDConfirmView.h; sourceTree = "<group>"; };
+		48CB4D512379099300535D21 /* NSData+CXDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CXDAdd.h"; sourceTree = "<group>"; };
+		48CB4D522379099300535D21 /* NSNumber+CXDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+CXDAdd.m"; sourceTree = "<group>"; };
+		48CB4D532379099300535D21 /* UIView+CXDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CXDAdd.h"; sourceTree = "<group>"; };
+		48CB4D542379099300535D21 /* UIImage+CXDRoundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CXDRoundImage.m"; sourceTree = "<group>"; };
+		48CB4D552379099300535D21 /* UIImage+CXDImageColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CXDImageColor.h"; sourceTree = "<group>"; };
+		48CB4D562379099300535D21 /* UIView+CXDBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CXDBorder.m"; sourceTree = "<group>"; };
+		48CB4D572379099300535D21 /* NSDate+CXDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CXDAdd.m"; sourceTree = "<group>"; };
+		48CB4D582379099300535D21 /* NSString+CXDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CXDAdd.m"; sourceTree = "<group>"; };
+		48CB4D592379099300535D21 /* UIViewController+CXDHideBottomLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CXDHideBottomLine.h"; sourceTree = "<group>"; };
+		48CB4D5A2379099300535D21 /* UITextField+CXDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CXDAdd.m"; sourceTree = "<group>"; };
+		48CB4D5B2379099300535D21 /* UIImageView+CXDRoundImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CXDRoundImage.m"; sourceTree = "<group>"; };
+		48CB4D5C2379099300535D21 /* UIColor+CXDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CXDAdd.h"; sourceTree = "<group>"; };
+		48CB4D5D2379099300535D21 /* UIView+CXDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CXDAdd.m"; sourceTree = "<group>"; };
+		48CB4D5E2379099300535D21 /* NSNumber+CXDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+CXDAdd.h"; sourceTree = "<group>"; };
+		48CB4D5F2379099300535D21 /* NSData+CXDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CXDAdd.m"; sourceTree = "<group>"; };
+		48CB4D602379099300535D21 /* UIView+CXDBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CXDBorder.h"; sourceTree = "<group>"; };
+		48CB4D612379099300535D21 /* UIImage+CXDImageColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CXDImageColor.m"; sourceTree = "<group>"; };
+		48CB4D622379099300535D21 /* UIImage+CXDRoundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CXDRoundImage.h"; sourceTree = "<group>"; };
+		48CB4D632379099300535D21 /* UITextField+CXDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CXDAdd.h"; sourceTree = "<group>"; };
+		48CB4D642379099300535D21 /* UIViewController+CXDHideBottomLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CXDHideBottomLine.m"; sourceTree = "<group>"; };
+		48CB4D652379099300535D21 /* NSString+CXDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CXDAdd.h"; sourceTree = "<group>"; };
+		48CB4D662379099300535D21 /* NSDate+CXDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CXDAdd.h"; sourceTree = "<group>"; };
+		48CB4D672379099300535D21 /* UIColor+CXDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CXDAdd.m"; sourceTree = "<group>"; };
+		48CB4D682379099300535D21 /* UIImageView+CXDRoundImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CXDRoundImage.h"; sourceTree = "<group>"; };
+		48CB4D762379099A00535D21 /* UIButton+CXDCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CXDCategory.m"; sourceTree = "<group>"; };
+		48CB4D772379099A00535D21 /* UIButton+CXDCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CXDCategory.h"; sourceTree = "<group>"; };
+		48CB4D7923790AD200535D21 /* CXDKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXDKitMacro.h; sourceTree = "<group>"; };
+		48CB4D7B23790E9800535D21 /* CXDKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXDKeychain.m; sourceTree = "<group>"; };
+		48CB4D7C23790E9800535D21 /* CXDKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXDKeychain.h; sourceTree = "<group>"; };
+		48CB4D7E23790F4200535D21 /* CXDBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXDBaseViewController.h; sourceTree = "<group>"; };
+		48CB4D7F23790F4200535D21 /* CXDBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXDBaseViewController.m; sourceTree = "<group>"; };
+		48CB4D8123790F7A00535D21 /* CXDTitleBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXDTitleBaseViewController.h; sourceTree = "<group>"; };
+		48CB4D8223790F7A00535D21 /* CXDTitleBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXDTitleBaseViewController.m; sourceTree = "<group>"; };
+		48CB4D842379115100535D21 /* CXDTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXDTableViewController.h; sourceTree = "<group>"; };
+		48CB4D852379115100535D21 /* CXDTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXDTableViewController.m; sourceTree = "<group>"; };
+		48CB4D882379118600535D21 /* CXDTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXDTableView.h; sourceTree = "<group>"; };
+		48CB4D892379118600535D21 /* CXDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXDTableViewCell.h; sourceTree = "<group>"; };
+		48CB4D8A2379118600535D21 /* CXDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXDTableViewCell.m; sourceTree = "<group>"; };
+		48CB4D8B2379118600535D21 /* CXDTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXDTableView.m; sourceTree = "<group>"; };
+		48CB4D912379127B00535D21 /* CXDMainNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXDMainNavigationController.h; sourceTree = "<group>"; };
+		48CB4D922379127B00535D21 /* CXDMainNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXDMainNavigationController.m; sourceTree = "<group>"; };
+		48CB4D942379129600535D21 /* CXDMainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXDMainTabBarController.h; sourceTree = "<group>"; };
+		48CB4D952379129600535D21 /* CXDMainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXDMainTabBarController.m; sourceTree = "<group>"; };
+		48CB4DA72379497200535D21 /* ZXYDeviceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXYDeviceController.h; sourceTree = "<group>"; };
+		48CB4DA82379497200535D21 /* ZXYDeviceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXYDeviceController.m; sourceTree = "<group>"; };
+		48CB4DAA2379498700535D21 /* ZXYHistoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXYHistoryController.h; sourceTree = "<group>"; };
+		48CB4DAB2379498700535D21 /* ZXYHistoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXYHistoryController.m; sourceTree = "<group>"; };
+		48CB4DAD2379499C00535D21 /* ZXYMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXYMeViewController.h; sourceTree = "<group>"; };
+		48CB4DAE2379499C00535D21 /* ZXYMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXYMeViewController.m; sourceTree = "<group>"; };
+		48CB4DB82379741900535D21 /* CXDTabBarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXDTabBarItem.h; sourceTree = "<group>"; };
+		48CB4DB92379741900535D21 /* CXDTabBarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXDTabBarItem.m; sourceTree = "<group>"; };
+		48CB4DCD237A9C6D00535D21 /* CXDIconView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXDIconView.h; sourceTree = "<group>"; };
+		48CB4DCE237A9C6D00535D21 /* CXDIconView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXDIconView.m; sourceTree = "<group>"; };
+		48CB4DD1237B9F7900535D21 /* CXDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXDAlertView.h; sourceTree = "<group>"; };
+		48CB4DD2237B9F7900535D21 /* CXDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXDAlertView.m; sourceTree = "<group>"; };
+		48CB4DD5237B9FB500535D21 /* CXDControlFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXDControlFactory.h; sourceTree = "<group>"; };
+		48CB4DD6237B9FB500535D21 /* CXDControlFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXDControlFactory.m; sourceTree = "<group>"; };
+		6A63BB4BF9FB7E3A15222CA3 /* Pods_CXDTabBarAlert_CXDTabBarAlertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXDTabBarAlert_CXDTabBarAlertUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FDDF109294F9B02A09265A /* Pods_CXDTabBarAlertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXDTabBarAlertTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7CD275AC1A3DD5F3952056 /* Pods-CXDTabBarAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXDTabBarAlert.debug.xcconfig"; path = "Target Support Files/Pods-CXDTabBarAlert/Pods-CXDTabBarAlert.debug.xcconfig"; sourceTree = "<group>"; };
+		987F9037CD1A6151A724AFA4 /* Pods-CXDTabBarAlertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXDTabBarAlertTests.debug.xcconfig"; path = "Target Support Files/Pods-CXDTabBarAlertTests/Pods-CXDTabBarAlertTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2CE4D08D3B1D47A39E46679 /* Pods-CXDTabBarAlertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXDTabBarAlertTests.release.xcconfig"; path = "Target Support Files/Pods-CXDTabBarAlertTests/Pods-CXDTabBarAlertTests.release.xcconfig"; sourceTree = "<group>"; };
+		B44D52953964224EF8C0511E /* Pods-CXDTabBarAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXDTabBarAlert.release.xcconfig"; path = "Target Support Files/Pods-CXDTabBarAlert/Pods-CXDTabBarAlert.release.xcconfig"; sourceTree = "<group>"; };
+		D9421549A51AC76E68CDE2CA /* Pods-CXDTabBarAlert-CXDTabBarAlertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXDTabBarAlert-CXDTabBarAlertUITests.release.xcconfig"; path = "Target Support Files/Pods-CXDTabBarAlert-CXDTabBarAlertUITests/Pods-CXDTabBarAlert-CXDTabBarAlertUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E164BB8E97A02E733C6E5CA3 /* Pods_CXDTabBarAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXDTabBarAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48561A03237428D900839B3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE079B167947C18F562C56C4 /* Pods_CXDTabBarAlert.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48561A1E237428DA00839B3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEB8ECEE5D9939FD6B121FB /* Pods_CXDTabBarAlertTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48561A29237428DA00839B3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CDB276E6D3CCFB9443DBB6 /* Pods_CXDTabBarAlert_CXDTabBarAlertUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B014C35E47DDCB846F9ADC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A7CD275AC1A3DD5F3952056 /* Pods-CXDTabBarAlert.debug.xcconfig */,
+				B44D52953964224EF8C0511E /* Pods-CXDTabBarAlert.release.xcconfig */,
+				272DD2B154C1205A282BBFDE /* Pods-CXDTabBarAlert-CXDTabBarAlertUITests.debug.xcconfig */,
+				D9421549A51AC76E68CDE2CA /* Pods-CXDTabBarAlert-CXDTabBarAlertUITests.release.xcconfig */,
+				987F9037CD1A6151A724AFA4 /* Pods-CXDTabBarAlertTests.debug.xcconfig */,
+				A2CE4D08D3B1D47A39E46679 /* Pods-CXDTabBarAlertTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		485619FD237428D900839B3F = {
+			isa = PBXGroup;
+			children = (
+				48561A08237428D900839B3F /* CXDTabBarAlert */,
+				48561A24237428DA00839B3F /* CXDTabBarAlertTests */,
+				48561A2F237428DA00839B3F /* CXDTabBarAlertUITests */,
+				48561A07237428D900839B3F /* Products */,
+				09B014C35E47DDCB846F9ADC /* Pods */,
+				85833D9208BE866D8A7D5C7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48561A07237428D900839B3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48561A06237428D900839B3F /* CXDTabBarAlert.app */,
+				48561A21237428DA00839B3F /* CXDTabBarAlertTests.xctest */,
+				48561A2C237428DA00839B3F /* CXDTabBarAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48561A08237428D900839B3F /* CXDTabBarAlert */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4D3A2379004E00535D21 /* CXDAppDelegate */,
+				48CB4D3B2379033500535D21 /* Modules */,
+				48CB4D3D2379040300535D21 /* Classes */,
+				48CB4D3C2379035700535D21 /* Tools */,
+				48561A3E237428F100839B3F /* SupportingFile */,
+			);
+			path = CXDTabBarAlert;
+			sourceTree = "<group>";
+		};
+		48561A24237428DA00839B3F /* CXDTabBarAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				48561A25237428DA00839B3F /* CXDTabBarAlertTests.m */,
+				48561A27237428DA00839B3F /* Info.plist */,
+			);
+			path = CXDTabBarAlertTests;
+			sourceTree = "<group>";
+		};
+		48561A2F237428DA00839B3F /* CXDTabBarAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48561A30237428DA00839B3F /* CXDTabBarAlertUITests.m */,
+				48561A32237428DA00839B3F /* Info.plist */,
+			);
+			path = CXDTabBarAlertUITests;
+			sourceTree = "<group>";
+		};
+		48561A3E237428F100839B3F /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4D392378FFAA00535D21 /* CXDProjectPrefixHeader.pch */,
+				48561A12237428D900839B3F /* Main.storyboard */,
+				48561A15237428D900839B3F /* Assets.xcassets */,
+				48561A17237428D900839B3F /* LaunchScreen.storyboard */,
+				48561A1A237428D900839B3F /* Info.plist */,
+				48561A1B237428D900839B3F /* main.m */,
+			);
+			path = SupportingFile;
+			sourceTree = "<group>";
+		};
+		48CB4D3A2379004E00535D21 /* CXDAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				48561A09237428D900839B3F /* AppDelegate.h */,
+				48561A0A237428D900839B3F /* AppDelegate.m */,
+			);
+			path = CXDAppDelegate;
+			sourceTree = "<group>";
+		};
+		48CB4D3B2379033500535D21 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4D9823793F7900535D21 /* Device */,
+				48CB4D9D23793FC700535D21 /* AlarmHistory */,
+				48CB4D9E23793FFA00535D21 /* Me */,
+				48CB4DB02379529400535D21 /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		48CB4D3C2379035700535D21 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4DD0237B9F7900535D21 /* CXDAlertView */,
+				48CB4D7A23790E7B00535D21 /* CXDKeychain */,
+				48CB4D452379094300535D21 /* PopupMsgAlertView */,
+				48CB4D412379091300535D21 /* Toast */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		48CB4D3D2379040300535D21 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4DD4237B9FB500535D21 /* Factory */,
+				48CB4D4F2379098600535D21 /* Category */,
+				48CB4D3F2379054100535D21 /* Macro */,
+				48CB4D3E2379053400535D21 /* BaseClasses */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		48CB4D3E2379053400535D21 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4D90237911EF00535D21 /* TabBarController */,
+				48CB4D8F237911E400535D21 /* NavigationController */,
+				48CB4D8E237911BB00535D21 /* BaseViewController */,
+				48CB4D872379118600535D21 /* BaseTableView */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		48CB4D3F2379054100535D21 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4D7923790AD200535D21 /* CXDKitMacro.h */,
+				48CB4D40237905D200535D21 /* CXDHeaderMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		48CB4D412379091300535D21 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4D422379091300535D21 /* CXDNoticeView.h */,
+				48CB4D432379091300535D21 /* CXDNoticeView.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		48CB4D452379094300535D21 /* PopupMsgAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4D4A2379094300535D21 /* CXDConfirmView.h */,
+				48CB4D462379094300535D21 /* CXDConfirmView.m */,
+				48CB4D472379094300535D21 /* CXDSelectBackView.h */,
+				48CB4D492379094300535D21 /* CXDSelectBackView.m */,
+			);
+			path = PopupMsgAlertView;
+			sourceTree = "<group>";
+		};
+		48CB4D4F2379098600535D21 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4D752379099A00535D21 /* UIButton */,
+				48CB4D502379099300535D21 /* UIKit */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		48CB4D502379099300535D21 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4D512379099300535D21 /* NSData+CXDAdd.h */,
+				48CB4D5F2379099300535D21 /* NSData+CXDAdd.m */,
+				48CB4D532379099300535D21 /* UIView+CXDAdd.h */,
+				48CB4D5D2379099300535D21 /* UIView+CXDAdd.m */,
+				48CB4D602379099300535D21 /* UIView+CXDBorder.h */,
+				48CB4D562379099300535D21 /* UIView+CXDBorder.m */,
+				48CB4D662379099300535D21 /* NSDate+CXDAdd.h */,
+				48CB4D572379099300535D21 /* NSDate+CXDAdd.m */,
+				48CB4D652379099300535D21 /* NSString+CXDAdd.h */,
+				48CB4D582379099300535D21 /* NSString+CXDAdd.m */,
+				48CB4D632379099300535D21 /* UITextField+CXDAdd.h */,
+				48CB4D5A2379099300535D21 /* UITextField+CXDAdd.m */,
+				48CB4D5C2379099300535D21 /* UIColor+CXDAdd.h */,
+				48CB4D672379099300535D21 /* UIColor+CXDAdd.m */,
+				48CB4D5E2379099300535D21 /* NSNumber+CXDAdd.h */,
+				48CB4D522379099300535D21 /* NSNumber+CXDAdd.m */,
+				48CB4D552379099300535D21 /* UIImage+CXDImageColor.h */,
+				48CB4D612379099300535D21 /* UIImage+CXDImageColor.m */,
+				48CB4D622379099300535D21 /* UIImage+CXDRoundImage.h */,
+				48CB4D542379099300535D21 /* UIImage+CXDRoundImage.m */,
+				48CB4D592379099300535D21 /* UIViewController+CXDHideBottomLine.h */,
+				48CB4D642379099300535D21 /* UIViewController+CXDHideBottomLine.m */,
+				48CB4D682379099300535D21 /* UIImageView+CXDRoundImage.h */,
+				48CB4D5B2379099300535D21 /* UIImageView+CXDRoundImage.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		48CB4D752379099A00535D21 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4D762379099A00535D21 /* UIButton+CXDCategory.m */,
+				48CB4D772379099A00535D21 /* UIButton+CXDCategory.h */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		48CB4D7A23790E7B00535D21 /* CXDKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4D7C23790E9800535D21 /* CXDKeychain.h */,
+				48CB4D7B23790E9800535D21 /* CXDKeychain.m */,
+			);
+			path = CXDKeychain;
+			sourceTree = "<group>";
+		};
+		48CB4D872379118600535D21 /* BaseTableView */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4D882379118600535D21 /* CXDTableView.h */,
+				48CB4D8B2379118600535D21 /* CXDTableView.m */,
+				48CB4D892379118600535D21 /* CXDTableViewCell.h */,
+				48CB4D8A2379118600535D21 /* CXDTableViewCell.m */,
+			);
+			path = BaseTableView;
+			sourceTree = "<group>";
+		};
+		48CB4D8E237911BB00535D21 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4D7E23790F4200535D21 /* CXDBaseViewController.h */,
+				48CB4D7F23790F4200535D21 /* CXDBaseViewController.m */,
+				48CB4D8123790F7A00535D21 /* CXDTitleBaseViewController.h */,
+				48CB4D8223790F7A00535D21 /* CXDTitleBaseViewController.m */,
+				48CB4D842379115100535D21 /* CXDTableViewController.h */,
+				48CB4D852379115100535D21 /* CXDTableViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		48CB4D8F237911E400535D21 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4D912379127B00535D21 /* CXDMainNavigationController.h */,
+				48CB4D922379127B00535D21 /* CXDMainNavigationController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		48CB4D90237911EF00535D21 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4D942379129600535D21 /* CXDMainTabBarController.h */,
+				48CB4D952379129600535D21 /* CXDMainTabBarController.m */,
+				48CB4DB82379741900535D21 /* CXDTabBarItem.h */,
+				48CB4DB92379741900535D21 /* CXDTabBarItem.m */,
+				48CB4DCD237A9C6D00535D21 /* CXDIconView.h */,
+				48CB4DCE237A9C6D00535D21 /* CXDIconView.m */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		48CB4D9823793F7900535D21 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4D9C23793FBE00535D21 /* Controller */,
+				48CB4D9B23793FB700535D21 /* Model */,
+				48CB4D9A23793FAE00535D21 /* View */,
+				48CB4D9923793F8100535D21 /* VideModel */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		48CB4D9923793F8100535D21 /* VideModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VideModel;
+			sourceTree = "<group>";
+		};
+		48CB4D9A23793FAE00535D21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48CB4D9B23793FB700535D21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48CB4D9C23793FBE00535D21 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4DA72379497200535D21 /* ZXYDeviceController.h */,
+				48CB4DA82379497200535D21 /* ZXYDeviceController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		48CB4D9D23793FC700535D21 /* AlarmHistory */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4DA22379403C00535D21 /* Controller */,
+				48CB4DA12379403800535D21 /* Model */,
+				48CB4DA02379402F00535D21 /* View */,
+				48CB4D9F2379402500535D21 /* ViewModel */,
+			);
+			path = AlarmHistory;
+			sourceTree = "<group>";
+		};
+		48CB4D9E23793FFA00535D21 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4DA62379405F00535D21 /* Controller */,
+				48CB4DA52379405100535D21 /* Model */,
+				48CB4DA42379404C00535D21 /* View */,
+				48CB4DA32379404500535D21 /* ViewModel */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		48CB4D9F2379402500535D21 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		48CB4DA02379402F00535D21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48CB4DA12379403800535D21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48CB4DA22379403C00535D21 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4DAA2379498700535D21 /* ZXYHistoryController.h */,
+				48CB4DAB2379498700535D21 /* ZXYHistoryController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		48CB4DA32379404500535D21 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		48CB4DA42379404C00535D21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48CB4DA52379405100535D21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48CB4DA62379405F00535D21 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4DAD2379499C00535D21 /* ZXYMeViewController.h */,
+				48CB4DAE2379499C00535D21 /* ZXYMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		48CB4DB02379529400535D21 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4DB4237952B200535D21 /* Controller */,
+				48CB4DB3237952AD00535D21 /* Model */,
+				48CB4DB2237952A700535D21 /* View */,
+				48CB4DB12379529E00535D21 /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		48CB4DB12379529E00535D21 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		48CB4DB2237952A700535D21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48CB4DB3237952AD00535D21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48CB4DB4237952B200535D21 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		48CB4DD0237B9F7900535D21 /* CXDAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4DD1237B9F7900535D21 /* CXDAlertView.h */,
+				48CB4DD2237B9F7900535D21 /* CXDAlertView.m */,
+			);
+			path = CXDAlertView;
+			sourceTree = "<group>";
+		};
+		48CB4DD4237B9FB500535D21 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				48CB4DD5237B9FB500535D21 /* CXDControlFactory.h */,
+				48CB4DD6237B9FB500535D21 /* CXDControlFactory.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		85833D9208BE866D8A7D5C7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E164BB8E97A02E733C6E5CA3 /* Pods_CXDTabBarAlert.framework */,
+				6A63BB4BF9FB7E3A15222CA3 /* Pods_CXDTabBarAlert_CXDTabBarAlertUITests.framework */,
+				75FDDF109294F9B02A09265A /* Pods_CXDTabBarAlertTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48561A05237428D900839B3F /* CXDTabBarAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48561A35237428DA00839B3F /* Build configuration list for PBXNativeTarget "CXDTabBarAlert" */;
+			buildPhases = (
+				9D11F8EC18C23AF62CC6C524 /* [CP] Check Pods Manifest.lock */,
+				48561A02237428D900839B3F /* Sources */,
+				48561A03237428D900839B3F /* Frameworks */,
+				48561A04237428D900839B3F /* Resources */,
+				B0F0ECD1FD04111CBCA904FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CXDTabBarAlert;
+			productName = CXDTabBarAlert;
+			productReference = 48561A06237428D900839B3F /* CXDTabBarAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48561A20237428DA00839B3F /* CXDTabBarAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48561A38237428DA00839B3F /* Build configuration list for PBXNativeTarget "CXDTabBarAlertTests" */;
+			buildPhases = (
+				CBA315C863523309BA16A653 /* [CP] Check Pods Manifest.lock */,
+				48561A1D237428DA00839B3F /* Sources */,
+				48561A1E237428DA00839B3F /* Frameworks */,
+				48561A1F237428DA00839B3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48561A23237428DA00839B3F /* PBXTargetDependency */,
+			);
+			name = CXDTabBarAlertTests;
+			productName = CXDTabBarAlertTests;
+			productReference = 48561A21237428DA00839B3F /* CXDTabBarAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48561A2B237428DA00839B3F /* CXDTabBarAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48561A3B237428DA00839B3F /* Build configuration list for PBXNativeTarget "CXDTabBarAlertUITests" */;
+			buildPhases = (
+				64880288E2C0BF00D665E020 /* [CP] Check Pods Manifest.lock */,
+				48561A28237428DA00839B3F /* Sources */,
+				48561A29237428DA00839B3F /* Frameworks */,
+				48561A2A237428DA00839B3F /* Resources */,
+				B3695939346E8188DD0F4744 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48561A2E237428DA00839B3F /* PBXTargetDependency */,
+			);
+			name = CXDTabBarAlertUITests;
+			productName = CXDTabBarAlertUITests;
+			productReference = 48561A2C237428DA00839B3F /* CXDTabBarAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		485619FE237428D900839B3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = zxycloud;
+				TargetAttributes = {
+					48561A05237428D900839B3F = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					48561A20237428DA00839B3F = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 48561A05237428D900839B3F;
+					};
+					48561A2B237428DA00839B3F = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 48561A05237428D900839B3F;
+					};
+				};
+			};
+			buildConfigurationList = 48561A01237428D900839B3F /* Build configuration list for PBXProject "CXDTabBarAlert" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 485619FD237428D900839B3F;
+			productRefGroup = 48561A07237428D900839B3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48561A05237428D900839B3F /* CXDTabBarAlert */,
+				48561A20237428DA00839B3F /* CXDTabBarAlertTests */,
+				48561A2B237428DA00839B3F /* CXDTabBarAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48561A04237428D900839B3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48561A19237428D900839B3F /* LaunchScreen.storyboard in Resources */,
+				48561A16237428D900839B3F /* Assets.xcassets in Resources */,
+				48561A14237428D900839B3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48561A1F237428DA00839B3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48561A2A237428DA00839B3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64880288E2C0BF00D665E020 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CXDTabBarAlert-CXDTabBarAlertUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D11F8EC18C23AF62CC6C524 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CXDTabBarAlert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0F0ECD1FD04111CBCA904FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CXDTabBarAlert/Pods-CXDTabBarAlert-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CXDTabBarAlert/Pods-CXDTabBarAlert-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CXDTabBarAlert/Pods-CXDTabBarAlert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3695939346E8188DD0F4744 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CXDTabBarAlert-CXDTabBarAlertUITests/Pods-CXDTabBarAlert-CXDTabBarAlertUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CXDTabBarAlert-CXDTabBarAlertUITests/Pods-CXDTabBarAlert-CXDTabBarAlertUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CXDTabBarAlert-CXDTabBarAlertUITests/Pods-CXDTabBarAlert-CXDTabBarAlertUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBA315C863523309BA16A653 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CXDTabBarAlertTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48561A02237428D900839B3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48CB4D442379091400535D21 /* CXDNoticeView.m in Sources */,
+				48CB4D712379099300535D21 /* NSData+CXDAdd.m in Sources */,
+				48CB4D6B2379099300535D21 /* UIView+CXDBorder.m in Sources */,
+				48CB4D742379099300535D21 /* UIColor+CXDAdd.m in Sources */,
+				48CB4D4D2379094300535D21 /* CXDSelectBackView.m in Sources */,
+				48CB4DD3237B9F7A00535D21 /* CXDAlertView.m in Sources */,
+				48CB4DAC2379498700535D21 /* ZXYHistoryController.m in Sources */,
+				48CB4D8C2379118600535D21 /* CXDTableViewCell.m in Sources */,
+				48CB4D6D2379099300535D21 /* NSString+CXDAdd.m in Sources */,
+				48CB4DBA2379741900535D21 /* CXDTabBarItem.m in Sources */,
+				48CB4D732379099300535D21 /* UIViewController+CXDHideBottomLine.m in Sources */,
+				48CB4D4C2379094300535D21 /* CXDConfirmView.m in Sources */,
+				48CB4D6F2379099300535D21 /* UIImageView+CXDRoundImage.m in Sources */,
+				48CB4D702379099300535D21 /* UIView+CXDAdd.m in Sources */,
+				48CB4DAF2379499C00535D21 /* ZXYMeViewController.m in Sources */,
+				48CB4DA92379497200535D21 /* ZXYDeviceController.m in Sources */,
+				48CB4DD7237B9FB500535D21 /* CXDControlFactory.m in Sources */,
+				48CB4D862379115100535D21 /* CXDTableViewController.m in Sources */,
+				48CB4D932379127B00535D21 /* CXDMainNavigationController.m in Sources */,
+				48CB4D8323790F7A00535D21 /* CXDTitleBaseViewController.m in Sources */,
+				48CB4D7D23790E9900535D21 /* CXDKeychain.m in Sources */,
+				48CB4D8023790F4200535D21 /* CXDBaseViewController.m in Sources */,
+				48561A0B237428D900839B3F /* AppDelegate.m in Sources */,
+				48CB4D782379099A00535D21 /* UIButton+CXDCategory.m in Sources */,
+				48CB4D722379099300535D21 /* UIImage+CXDImageColor.m in Sources */,
+				48CB4D692379099300535D21 /* NSNumber+CXDAdd.m in Sources */,
+				48CB4D6C2379099300535D21 /* NSDate+CXDAdd.m in Sources */,
+				48561A1C237428D900839B3F /* main.m in Sources */,
+				48CB4DCF237A9C6D00535D21 /* CXDIconView.m in Sources */,
+				48CB4D6E2379099300535D21 /* UITextField+CXDAdd.m in Sources */,
+				48CB4D8D2379118600535D21 /* CXDTableView.m in Sources */,
+				48CB4D962379129600535D21 /* CXDMainTabBarController.m in Sources */,
+				48CB4D6A2379099300535D21 /* UIImage+CXDRoundImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48561A1D237428DA00839B3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48561A26237428DA00839B3F /* CXDTabBarAlertTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48561A28237428DA00839B3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48561A31237428DA00839B3F /* CXDTabBarAlertUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48561A23237428DA00839B3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48561A05237428D900839B3F /* CXDTabBarAlert */;
+			targetProxy = 48561A22237428DA00839B3F /* PBXContainerItemProxy */;
+		};
+		48561A2E237428DA00839B3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48561A05237428D900839B3F /* CXDTabBarAlert */;
+			targetProxy = 48561A2D237428DA00839B3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48561A12237428D900839B3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48561A13237428D900839B3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48561A17237428D900839B3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48561A18237428D900839B3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48561A33237428DA00839B3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48561A34237428DA00839B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48561A36237428DA00839B3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A7CD275AC1A3DD5F3952056 /* Pods-CXDTabBarAlert.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J355KA6BNU;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CXDTabBarAlert/SupportingFile/CXDProjectPrefixHeader.pch";
+				INFOPLIST_FILE = CXDTabBarAlert/SupportingFile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxycloud.CXDTabBarAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48561A37237428DA00839B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44D52953964224EF8C0511E /* Pods-CXDTabBarAlert.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J355KA6BNU;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CXDTabBarAlert/SupportingFile/CXDProjectPrefixHeader.pch";
+				INFOPLIST_FILE = CXDTabBarAlert/SupportingFile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxycloud.CXDTabBarAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48561A39237428DA00839B3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987F9037CD1A6151A724AFA4 /* Pods-CXDTabBarAlertTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J355KA6BNU;
+				INFOPLIST_FILE = CXDTabBarAlertTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxycloud.CXDTabBarAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CXDTabBarAlert.app/CXDTabBarAlert";
+			};
+			name = Debug;
+		};
+		48561A3A237428DA00839B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2CE4D08D3B1D47A39E46679 /* Pods-CXDTabBarAlertTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J355KA6BNU;
+				INFOPLIST_FILE = CXDTabBarAlertTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxycloud.CXDTabBarAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CXDTabBarAlert.app/CXDTabBarAlert";
+			};
+			name = Release;
+		};
+		48561A3C237428DA00839B3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 272DD2B154C1205A282BBFDE /* Pods-CXDTabBarAlert-CXDTabBarAlertUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J355KA6BNU;
+				INFOPLIST_FILE = CXDTabBarAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxycloud.CXDTabBarAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CXDTabBarAlert;
+			};
+			name = Debug;
+		};
+		48561A3D237428DA00839B3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9421549A51AC76E68CDE2CA /* Pods-CXDTabBarAlert-CXDTabBarAlertUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J355KA6BNU;
+				INFOPLIST_FILE = CXDTabBarAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zxycloud.CXDTabBarAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CXDTabBarAlert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48561A01237428D900839B3F /* Build configuration list for PBXProject "CXDTabBarAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48561A33237428DA00839B3F /* Debug */,
+				48561A34237428DA00839B3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48561A35237428DA00839B3F /* Build configuration list for PBXNativeTarget "CXDTabBarAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48561A36237428DA00839B3F /* Debug */,
+				48561A37237428DA00839B3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48561A38237428DA00839B3F /* Build configuration list for PBXNativeTarget "CXDTabBarAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48561A39237428DA00839B3F /* Debug */,
+				48561A3A237428DA00839B3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48561A3B237428DA00839B3F /* Build configuration list for PBXNativeTarget "CXDTabBarAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48561A3C237428DA00839B3F /* Debug */,
+				48561A3D237428DA00839B3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 485619FE237428D900839B3F /* Project object */;
+}
